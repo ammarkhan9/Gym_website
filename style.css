@@ -4,13 +4,12 @@ body {
     color: white;
     margin: 0px;
     padding: 0px;
-    background: url("img/bg1.jpg");
-    height: 1060px;
+    background: url("img/bg1.jpg") no-repeat;
+    height: 100vh;
 }
 
 .left {
     display: inline-block;
-    /* border: 2px solid red; */
     position: absolute;
     left: 60px;
     top: 20px;
@@ -23,7 +22,6 @@ body {
     display: block;
     width: 40%;
     margin: 28px auto;
-    /* border: 2px solid green; */
 }
 
 .right {
